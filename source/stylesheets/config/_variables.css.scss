@@ -28,9 +28,14 @@ $brand-color: #D23333;
 
 $red: #EE5F5B;
 $blue: #469AE0;
-$yellow: #FDB631;
+$yellow: #FEF935;
 $orange: #E67E22;
-$green: #32B796;
+$green: #00F72C;
+
+$white: #FFF;
+$black: #000;
+
+$border-color: #E6E6E6;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
@@ -38,3 +43,12 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+// Border
+$border-solid-gray: 1px solid #E6E6E6;
+
+// Shadow
+$shadow-color: #E6E6E6;
+
+// Text Shadow
+$text-shadow: 5px 5px 10px #000;
