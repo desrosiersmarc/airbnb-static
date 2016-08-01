@@ -1,0 +1,26 @@
+.flat-details-wrapper {
+  background-color: $gray-lighter;
+  color: $red;
+}
+
+.flat-picture {
+  height: 327px;
+  background-size: cover;
+}
+
+.owner-informations {
+  display: flex;
+
+}
+
+.book-container {
+  background-color: $gray-lighter;
+  padding: 10px;
+  margin: 15px;
+  border-radius: $border-radius-base;
+}
+
+.owner-informations {
+   display: flex;
+   align-items: center;
+}

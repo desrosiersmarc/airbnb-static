@@ -1,0 +1,44 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class="flat-picture" style="background-image: url('<%= flat.picture %>')">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="owner-and-blog">
+        <div class="owner-informations">
+          <div>
+            <%= image_tag flat.picture_owner, class: "img-circle avatar-large" %>
+            <p><%= flat.owner_name %></p>
+          </div>
+          <div>
+            <h4><%= flat.description %></h4>
+            <p><%= flat.city %></p>
+            <p><%= flat.rate %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <div class="book-container">
+        <h4>
+          Book this flat
+          <form action="">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <a href="" class="btn btn-danger btn-block">Book it</a>
+          </form>
+        </h4>
+      </div>
+    </div>
+</div>
+
+<div class="flat-details-wrapper">
+  <p><%= flat.wifi %></p>
+</div>
